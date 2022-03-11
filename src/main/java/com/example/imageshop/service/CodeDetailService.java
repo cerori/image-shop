@@ -1,6 +1,7 @@
 package com.example.imageshop.service;
 
 import com.example.imageshop.domain.CodeDetail;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

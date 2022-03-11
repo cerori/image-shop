@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface CodeService {
 
-    public List<CodeLabelValue> getCodeGroupList() throws Exception;
+    List<CodeLabelValue> getCodeGroupList() throws Exception;
 
+    List<CodeLabelValue> getCodeList(String classCode) throws Exception;
 }

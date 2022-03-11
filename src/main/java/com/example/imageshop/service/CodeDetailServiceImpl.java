@@ -5,10 +5,12 @@ import com.example.imageshop.domain.CodeDetailId;
 import com.example.imageshop.repository.CodeDetailRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @RequiredArgsConstructor
+@Service
 public class CodeDetailServiceImpl implements CodeDetailService {
 
     private final CodeDetailRepository repository;

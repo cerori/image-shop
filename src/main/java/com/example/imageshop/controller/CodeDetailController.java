@@ -17,7 +17,7 @@ public class CodeDetailController {
 
     public final CodeDetailService service;
 
-    @GetMapping("/{groupCode}/{codeValue")
+    @GetMapping("/{groupCode}/{codeValue}")
     public ResponseEntity<?> read(@PathVariable("groupCode") String groupCode, @PathVariable("codeValue") String codeValue) throws Exception {
 
         return null;
